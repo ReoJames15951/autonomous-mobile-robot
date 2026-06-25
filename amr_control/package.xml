@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<package format="3">
+
+  <name>amr_control</name>
+
+  <version>1.0.0</version>
+
+  <description>
+    Control package for the Autonomous Mobile Robot (AMR).
+
+    This package implements:
+
+    • Differential Drive Kinematics
+    • Wheel Encoder Simulation
+    • Encoder Odometry
+    • IMU Simulation
+    • LiDAR Simulation
+    • Extended Kalman Filter (EKF)
+  </description>
+
+  <maintainer email="YOUR_EMAIL@gmail.com">
+    Felix
+  </maintainer>
+
+  <license>MIT</license>
+
+  <!-- Build Tool -->
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- ROS Dependencies -->
+
+  <depend>rclpy</depend>
+
+  <depend>geometry_msgs</depend>
+
+  <depend>nav_msgs</depend>
+
+  <depend>sensor_msgs</depend>
+
+  <depend>tf2_ros</depend>
+
+  <depend>robot_localization</depend>
+
+  <depend>launch</depend>
+
+  <depend>launch_ros</depend>
+
+  <!-- Export -->
+
+  <export>
+
+    <build_type>ament_python</build_type>
+
+  </export>
+
+</package>
