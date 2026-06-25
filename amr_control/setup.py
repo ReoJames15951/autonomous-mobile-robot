@@ -63,6 +63,8 @@ setup(
             "imu_sim = amr_control.imu_sim:main",
 
             "lidar_sim = amr_control.lidar_sim:main",
+            
+            "waypoint_follower = amr_control.waypoint_follower:main",
 
         ],
 
